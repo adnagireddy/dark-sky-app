@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A616F51F2A8A7D890004BB62 /* dummyData.json in Resources */ = {isa = PBXBuildFile; fileRef = A616F51E2A8A7D890004BB62 /* dummyData.json */; };
+		A616F5212A8A7EBA0004BB62 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A616F5202A8A7EBA0004BB62 /* Extensions.swift */; };
+		A616F5242A8AC8000004BB62 /* WeatherRowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A616F5232A8AC8000004BB62 /* WeatherRowComponent.swift */; };
 		A6ACBD3C2A81D20200FA7462 /* dark_sky_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ACBD3B2A81D20200FA7462 /* dark_sky_appApp.swift */; };
 		A6ACBD3E2A81D20200FA7462 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ACBD3D2A81D20200FA7462 /* ContentView.swift */; };
 		A6ACBD402A81D20400FA7462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6ACBD3F2A81D20400FA7462 /* Assets.xcassets */; };
@@ -14,6 +17,12 @@
 		A6ACBD4D2A81D20400FA7462 /* dark_sky_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ACBD4C2A81D20400FA7462 /* dark_sky_appTests.swift */; };
 		A6ACBD572A81D20400FA7462 /* dark_sky_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ACBD562A81D20400FA7462 /* dark_sky_appUITests.swift */; };
 		A6ACBD592A81D20400FA7462 /* dark_sky_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ACBD582A81D20400FA7462 /* dark_sky_appUITestsLaunchTests.swift */; };
+		A6ACBD682A81D36A00FA7462 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ACBD672A81D36A00FA7462 /* LocationManager.swift */; };
+		A6ACBD6B2A868C3700FA7462 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ACBD6A2A868C3700FA7462 /* OnboardingScreen.swift */; };
+		A6ACBD6D2A86E9E200FA7462 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ACBD6C2A86E9E200FA7462 /* LoadingView.swift */; };
+		A6ACBD6F2A86F4B800FA7462 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ACBD6E2A86F4B800FA7462 /* WeatherManager.swift */; };
+		A6ACBDBB2A89C54900FA7462 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ACBDBA2A89C54900FA7462 /* WeatherView.swift */; };
+		A6ACBDBD2A89C59B00FA7462 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ACBDBC2A89C59B00FA7462 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A616F51E2A8A7D890004BB62 /* dummyData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dummyData.json; sourceTree = "<group>"; };
+		A616F5202A8A7EBA0004BB62 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A616F5232A8AC8000004BB62 /* WeatherRowComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRowComponent.swift; sourceTree = "<group>"; };
 		A6ACBD382A81D20200FA7462 /* dark-sky-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dark-sky-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6ACBD3B2A81D20200FA7462 /* dark_sky_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dark_sky_appApp.swift; sourceTree = "<group>"; };
-		A6ACBD3D2A81D20200FA7462 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6ACBD3D2A81D20200FA7462 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "dark-sky-app/Views/ContentView.swift"; sourceTree = SOURCE_ROOT; };
 		A6ACBD3F2A81D20400FA7462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6ACBD422A81D20400FA7462 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A6ACBD482A81D20400FA7462 /* dark-sky-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dark-sky-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +56,12 @@
 		A6ACBD522A81D20400FA7462 /* dark-sky-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dark-sky-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6ACBD562A81D20400FA7462 /* dark_sky_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dark_sky_appUITests.swift; sourceTree = "<group>"; };
 		A6ACBD582A81D20400FA7462 /* dark_sky_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dark_sky_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6ACBD672A81D36A00FA7462 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A6ACBD6A2A868C3700FA7462 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		A6ACBD6C2A86E9E200FA7462 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A6ACBD6E2A86F4B800FA7462 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		A6ACBDBA2A89C54900FA7462 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		A6ACBDBC2A89C59B00FA7462 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A616F5222A8AC7D30004BB62 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A616F5232A8AC8000004BB62 /* WeatherRowComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		A6ACBD2F2A81D20200FA7462 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +120,13 @@
 		A6ACBD3A2A81D20200FA7462 /* dark-sky-app */ = {
 			isa = PBXGroup;
 			children = (
+				A616F5222A8AC7D30004BB62 /* Components */,
+				A6ACBD692A868ADC00FA7462 /* Views */,
+				A6ACBD662A81D33A00FA7462 /* Managers */,
 				A6ACBD3B2A81D20200FA7462 /* dark_sky_appApp.swift */,
-				A6ACBD3D2A81D20200FA7462 /* ContentView.swift */,
 				A6ACBD3F2A81D20400FA7462 /* Assets.xcassets */,
 				A6ACBD412A81D20400FA7462 /* Preview Content */,
+				A616F5202A8A7EBA0004BB62 /* Extensions.swift */,
 			);
 			path = "dark-sky-app";
 			sourceTree = "<group>";
@@ -106,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				A6ACBD422A81D20400FA7462 /* Preview Assets.xcassets */,
+				A6ACBDBC2A89C59B00FA7462 /* ModelData.swift */,
+				A616F51E2A8A7D890004BB62 /* dummyData.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,6 +156,26 @@
 				A6ACBD582A81D20400FA7462 /* dark_sky_appUITestsLaunchTests.swift */,
 			);
 			path = "dark-sky-appUITests";
+			sourceTree = "<group>";
+		};
+		A6ACBD662A81D33A00FA7462 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A6ACBD672A81D36A00FA7462 /* LocationManager.swift */,
+				A6ACBD6E2A86F4B800FA7462 /* WeatherManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A6ACBD692A868ADC00FA7462 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6ACBD3D2A81D20200FA7462 /* ContentView.swift */,
+				A6ACBD6A2A868C3700FA7462 /* OnboardingScreen.swift */,
+				A6ACBD6C2A86E9E200FA7462 /* LoadingView.swift */,
+				A6ACBDBA2A89C54900FA7462 /* WeatherView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +284,7 @@
 			files = (
 				A6ACBD432A81D20400FA7462 /* Preview Assets.xcassets in Resources */,
 				A6ACBD402A81D20400FA7462 /* Assets.xcassets in Resources */,
+				A616F51F2A8A7D890004BB62 /* dummyData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +309,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6ACBD6F2A86F4B800FA7462 /* WeatherManager.swift in Sources */,
+				A616F5242A8AC8000004BB62 /* WeatherRowComponent.swift in Sources */,
+				A616F5212A8A7EBA0004BB62 /* Extensions.swift in Sources */,
+				A6ACBD6B2A868C3700FA7462 /* OnboardingScreen.swift in Sources */,
 				A6ACBD3E2A81D20200FA7462 /* ContentView.swift in Sources */,
 				A6ACBD3C2A81D20200FA7462 /* dark_sky_appApp.swift in Sources */,
+				A6ACBD6D2A86E9E200FA7462 /* LoadingView.swift in Sources */,
+				A6ACBDBD2A89C59B00FA7462 /* ModelData.swift in Sources */,
+				A6ACBDBB2A89C54900FA7462 /* WeatherView.swift in Sources */,
+				A6ACBD682A81D36A00FA7462 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
